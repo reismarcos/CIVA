@@ -1,0 +1,26 @@
+<ion-header class="mynav">    
+      <div class="pos-logo">
+        <img src="../../assets/imgs/logo-CIVa.png">
+      </div>
+</ion-header>
+
+
+<ion-content>
+  <div class="mymenu">
+    <p class="nome-menu">Paciente: Antonio Carlos Moura Silva</p>
+    <ion-row>
+      <ion-col><button ion-button class="menu-button" (click)="openDados()" >Dados<br>pessoais</button></ion-col>
+      <ion-col><button ion-button class="menu-button" (click)="openQrcode()">QR<br>Code</button></ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col><button ion-button class="menu-button" (click)="openHistorico()">Histórico</button></ion-col>
+      <ion-col><button ion-button class="menu-button" (click)="openProxima()" >Próximas<br>vacinas</button></ion-col>
+    </ion-row>
+    
+    <ion-row>
+      <ion-col><button ion-button class="menu-button" (click)="openInfo()" >Informações</button></ion-col>
+      <ion-col><button ion-button class="menu-button">Configurações</button></ion-col>
+    </ion-row>
+  </div>
+</ion-content>

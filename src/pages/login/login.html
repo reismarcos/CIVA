@@ -1,0 +1,29 @@
+<ion-header class="mynav">    
+  <div class="pos-logo">
+    <img class="logo-login" src="../../assets/imgs/logo-CIVa.png">
+  </div>
+</ion-header>
+
+
+<ion-content class="no-scroll" class="pg-login" padding>
+  <div class="box-login">
+    <h2>Login</h2>
+
+    <div class="pos-input">
+      <ion-icon name="md-person" class="icon-person"></ion-icon>
+      <input placeholder=CPF>
+    </div>
+
+    <br>
+
+    <div class="pos-input">
+        <ion-icon name="md-lock" class="icon-person"></ion-icon>
+        <input type="password" placeholder=Senha>
+    </div>
+    <br>
+    <button (click)="openHomeCliente()" > Login Cliente </button>
+    <br>
+    <button (click)="openAgente()" > Login Agente </button>
+  </div>
+
+</ion-content>

@@ -1,0 +1,37 @@
+<ion-header>   
+  <ion-navbar> 
+    <h1>Históricos de vacinas</h1>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+  <ion-searchbar></ion-searchbar>
+  <ion-card (click)="openVacina()">
+      <ion-item>
+          <ion-icon name="ios-checkmark-circle" class="ios-checkmark-circle" item-start large></ion-icon>
+          <h2>Febre Amarela</h2>
+          <p><ion-icon name="md-calendar" class="md-calendar"></ion-icon>22/03/2018</p>
+          <p><ion-icon name="md-pin" class="md-pin"></ion-icon>Posto de Saúde - Centro, Niterói -RJ</p>
+        </ion-item>
+  </ion-card>
+
+  <ion-card (click)="openVacina()"> 
+      <ion-item>
+          <ion-icon name="ios-checkmark-circle" class="ios-checkmark-circle" item-start large></ion-icon>
+          <h2>Tetano</h2>
+          <p><ion-icon name="md-calendar" class="md-calendar"></ion-icon>20/04/2016</p>
+          <p><ion-icon name="md-pin" class="md-pin"></ion-icon>Posto de Saúde - Centro, Niterói -RJ</p>
+        </ion-item>
+  </ion-card>
+
+  <ion-card (click)="openVacina()">
+      <ion-item>
+          <ion-icon name="ios-checkmark-circle" class="ios-checkmark-circle" item-start large></ion-icon>
+          <h2>Gripe (Influenza)</h2>
+          <p><ion-icon name="md-calendar" class="md-calendar"></ion-icon>10/10/2010</p>
+          <p><ion-icon name="md-pin" class="md-pin"></ion-icon>Posto de Saúde - Centro, Niterói -RJ</p>
+        </ion-item>
+  </ion-card>
+</ion-content>

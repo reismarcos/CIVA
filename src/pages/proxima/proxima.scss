@@ -1,0 +1,41 @@
+page-proxima {   
+    ion-card{
+        padding-top:10px;
+        padding-bottom: 10px;
+        border:1px solid #79a2ce;
+        cursor: pointer;
+    }
+    ion-card h2{
+        padding-bottom:3px;
+        font-weight: bold !important;
+        font-size:15px !important;
+    }
+    ion-card p{
+        font-size:9px;
+        padding-bottom:1px;
+        color:#232020 !important;
+    }
+    
+    .ios-checkmark-circle{
+        color:#26bd39;
+    }
+
+    .md-calendar{
+        color:#79a2ce;
+        padding-right: 7px;
+    }
+
+    .md-pin{
+        color:#79a2ce;
+        padding-right: 7px;
+    }
+    
+    .ios-add-circle-outline{
+        color:#79a2ce;
+    }
+
+    .label-md{
+        margin:0 !important;
+    }
+    
+}

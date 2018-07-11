@@ -1,0 +1,47 @@
+<ion-header>   
+    <ion-navbar> 
+      <h1>Próximas vacinas</h1>
+    </ion-navbar>
+  </ion-header>
+  
+  
+  
+  <ion-content padding>
+    <ion-searchbar></ion-searchbar>
+    <ion-card (click)="openVacina()"> 
+        <ion-item>
+            <ion-icon name="md-add-circle" class="ios-add-circle-outline" item-start large></ion-icon>
+            <h2>Vacina Contra Hepatite B</h2>
+            <p><ion-icon name="md-calendar" class="md-calendar"></ion-icon>22/03/2018</p>
+            <p><ion-icon name="md-pin" class="md-pin"></ion-icon>Posto de Saúde - Centro, Niterói -RJ</p>
+          </ion-item>
+    </ion-card>
+  
+    <ion-card (click)="openVacina()">
+        <ion-item>
+            <ion-icon name="md-add-circle" class="ios-add-circle-outline" item-start large></ion-icon>
+            <h2>Vacina contra sarampo e rubéola</h2>
+            <p><ion-icon name="md-calendar" class="md-calendar"></ion-icon>20/04/2016</p>
+            <p><ion-icon name="md-pin" class="md-pin"></ion-icon>Posto de Saúde - Centro, Niterói -RJ</p>
+          </ion-item>
+    </ion-card>
+  
+    <ion-card (click)="openVacina()">
+        <ion-item>
+            <ion-icon name="md-add-circle" class="ios-add-circle-outline" item-start large></ion-icon>
+            <h2>Vacina contra Pneumonia</h2>
+            <p><ion-icon name="md-calendar" class="md-calendar"></ion-icon>10/10/2010</p>
+            <p><ion-icon name="md-pin" class="md-pin"></ion-icon>Posto de Saúde - Centro, Niterói -RJ</p>
+          </ion-item>
+    </ion-card>
+
+    <ion-card (click)="openVacina()">
+        <ion-item>
+            <ion-icon name="md-add-circle" class="ios-add-circle-outline" item-start large></ion-icon>
+            <h2>Vacina contra Dengue</h2>
+            <p><ion-icon name="md-calendar" class="md-calendar"></ion-icon>10/10/2010</p>
+            <p><ion-icon name="md-pin" class="md-pin"></ion-icon>Posto de Saúde - Centro, Niterói -RJ</p>
+          </ion-item>
+    </ion-card>
+
+  </ion-content>
